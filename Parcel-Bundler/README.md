@@ -19,8 +19,8 @@
 
 ### parcel run command :
 
-. npx parcel index.html -> dev build
-. npx parcel build index.html -> production build
+- npx parcel index.html -> dev build
+- npx parcel build index.html -> production build
 
 ## Browserslist package :
 
