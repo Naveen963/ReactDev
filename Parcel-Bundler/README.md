@@ -22,6 +22,11 @@
 - npx parcel index.html -> dev build
 - npx parcel build index.html -> production build
 
+## script commands :
+
+- npm run start / npm start - dev build
+- npm run build - prod build
+
 ## Browserslist package :
 
 --> Used to tell on which browsers our app should work
