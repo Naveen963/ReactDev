@@ -1,4 +1,3 @@
-import Logo from '../public/image/logo.jpg'
 
 const imageBaseURL = "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/"
 const RestaurantCard = (props) => {
