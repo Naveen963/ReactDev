@@ -57,9 +57,30 @@
 }
 
 .search{
-    padding: 10px;
+    display: flex;
+    justify-content: center;
+   margin-top: 20px;
 }
 
+.searchBox{
+    padding: 8px;
+    width: 20%;
+    border-radius: 6px;
+    margin-right: 0.1rem;
+}
+
+.search-btn{
+    width: 5%;
+    border: none;
+    font-size: 18px;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.search-btn:hover{
+
+    color: rgb(15, 15, 241);
+}
 .filter{
     float: right;
     margin-right: 2rem;
