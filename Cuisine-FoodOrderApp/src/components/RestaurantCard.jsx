@@ -7,7 +7,7 @@ const RestaurantCard = (props) => {
             <img src={imageBaseURL + imageURL} alt="restaurant-logo" className='res-img' />
             <div className='res-detail'>
                 <h3>{name}</h3>
-                <i style={{ color: 'grey' }} >{cuisines.join(", ")}</i>
+                <i style={{ color: 'grey' }} >{cuisines.slice(0, 4).join(", ") + (cuisines.length > 4 ? '...' : '')}</i>
                 <h4>{avgRating}</h4>
                 <h4>{costForTwo}</h4>
                 <h4>{deliveryTime}</h4>

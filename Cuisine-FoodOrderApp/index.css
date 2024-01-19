@@ -60,3 +60,27 @@
     padding: 10px;
 }
 
+.filter{
+    float: right;
+    margin-right: 2rem;
+}
+
+
+.filter-btn{
+    padding: 5px;
+    cursor: pointer;
+    border-style: none;
+    background-color: transparent;
+}
+
+.filter-btn:hover{
+    background-color: aliceblue;
+    color: cornflowerblue;
+}
+
+.login{
+    padding: 0px 20px;
+    height: 30px;
+    margin-top: 1rem;
+    
+}
